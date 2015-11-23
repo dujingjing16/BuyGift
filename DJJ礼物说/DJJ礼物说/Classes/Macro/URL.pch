@@ -1,0 +1,82 @@
+//
+//  URL.pch
+//  DJJ礼物说
+//
+//  Created by lanou3g on 15/11/17.
+//  Copyright © 2015年 小杜. All rights reserved.
+//
+
+
+#ifndef URL_pch
+#define URL_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kViewWidth self.view.frame.size.width
+#define kViewHeight self.view.frame.size.height
+
+#import "UIImageView+WebCache.h"
+
+#import "SUNSlideSwitchView.h"
+
+#import "AFNetworking.h"
+
+#import "MJRefresh.h"
+
+#import "UMSocial.h"
+
+#import "DKNightVersion.h"
+
+#import "MZGuidePages.h"
+
+#import "RESideMenu.h"
+
+#pragma mark ------- 轮播图
+
+#define kURL_1 @"http://api.liwushuo.com/v2/channels/100/items?ad=2&gender=1&generation=1&limit=20&offset=%d"
+
+#define kURL_2 @"http://api.liwushuo.com/v2/banners?channel=iOS"
+
+#pragma mark ------- 首页
+
+#define kURL_3 @"http://api.liwushuo.com/v2/promotions?gender=1&generation=1"
+
+//礼物
+#define kURL_4 @"http://api.liwushuo.com/v2/channels/111/items?gender=1&generation=1&limit=20&offset=%d"
+//美食
+#define kURL_5 @"http://api.liwushuo.com/v2/channels/118/items?gender=1&generation=1&limit=20&offset=%d"
+//数码
+#define kURL_6 @"http://api.liwushuo.com/v2/channels/121/items?gender=1&generation=1&limit=20&offset=%d"
+//运动
+#define kURL_7 @"http://api.liwushuo.com/v2/channels/123/items?gender=1&generation=1&limit=20&offset=%d"
+//海淘
+#define kURL_8 @"http://api.liwushuo.com/v2/channels/129/items?gender=1&generation=1&limit=20&offset=%d"
+
+
+#pragma mark ------- 热门
+//热门
+#define kURL_10 @"http://api.liwushuo.com/v2/items?gender=1&generation=1&limit=50&offset=%d"
+
+#pragma mark ------- 分类
+//专题  图片
+#define kURL_31 @"http://api.liwushuo.com/v1/collections?limit=6&offset=0"
+//专题
+#define kURL_32 @"http://api.liwushuo.com/v1/collections?limit=20&offset=0"
+//下页
+#define kURL_33 @"http://api.liwushuo.com/v1/collections?limit=20&offset=20"
+
+//品类
+//图片链接
+#define kURL_34 @"http://api.liwushuo.com/v1/channel_groups/all?"
+
+// 各分类的链接
+#define kURL_CLASSIFY @"http://api.liwushuo.com/v1/channels/%d/items?limit=20&offset=0"
+
+// 搜索关键词
+#define kURL_ALLKEY @"http://api.liwushuo.com/v1/search/hot_words?"
+
+// 搜索结果
+
+#define kURL_SEARCH @"http://api.liwushuo.com/v1/search/item?keyword=%E6%89%8B%E6%9C%BA%E5%A3%B3&limit=20&offset=0&sort="
+
+#endif /* URL_pch */

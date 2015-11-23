@@ -1,0 +1,22 @@
+PODS:
+  - DKNightVersion (0.9.0):
+    - DKNightVersion/Core (= 0.9.0)
+    - DKNightVersion/Generator (= 0.9.0)
+    - DKNightVersion/Helper (= 0.9.0)
+    - DKNightVersion/UIKit (= 0.9.0)
+  - DKNightVersion/Core (0.9.0)
+  - DKNightVersion/Generator (0.9.0)
+  - DKNightVersion/Helper (0.9.0)
+  - DKNightVersion/UIKit (0.9.0):
+    - DKNightVersion/Core
+  - RESideMenu (4.0.7)
+
+DEPENDENCIES:
+  - DKNightVersion (~> 0.9.0)
+  - RESideMenu (~> 4.0.7)
+
+SPEC CHECKSUMS:
+  DKNightVersion: 405d8328b982f751df09d5d6847931a536e472ee
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+
+COCOAPODS: 0.39.0

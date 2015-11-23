@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02150D1CB79AAA932028AA840F41EEB9 /* UITableView+SeparatorColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD9A20C7B95C5E33BBAA54183A42BF5 /* UITableView+SeparatorColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03899272ACC8F9477003154C910846AC /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 6918F73D846EDED80E7EBF7E68598593 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07698A9BC09E52CD595715AD0F905AB9 /* UITabBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F01C449C7F15B2B2F619886AF2805 /* UITabBar+BarTintColor.m */; };
+		0ADDBF9C0F573130D1AC899A90E86BA8 /* DKNightVersion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6721670E9BC78275A844360B4420758 /* DKNightVersion-dummy.m */; };
+		0EB507079ADF57B2173E76184CBD51A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		1FC64BA6B10BB48050B720C92114BB4A /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAB1B4886D37868963648F95F48C0CD /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2343236BE7AF108ACDB2449005998377 /* UITableView+SeparatorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B54633EB046B3B6FD015333491749E /* UITableView+SeparatorColor.m */; };
+		4A989C2AF7F3EF42AE7AC20768393837 /* UINavigationBar+TintColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DE7B9BC8330039618BA8E42622A2A2 /* UINavigationBar+TintColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE5783F7EB1B3C89280ED36D3B30BC8 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		5F91B9A49B9C8BF54201B8AAA155E0CA /* UIBarButtonItem+TintColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F32AB73C5CAB085E48D9A8CB516B6774 /* UIBarButtonItem+TintColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		652F3E2CBAD7E9128B759D5E0BE72DF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		6D9CE6EEB0CDE02B2AD2FC16840B3C0C /* UINavigationBar+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C3EF6A157C661ABB14F7D1B71877E8 /* UINavigationBar+Animation.m */; };
+		72E819D6193E30C4271FFB6251295093 /* UILabel+TextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 24843EF2ED0EB4943210882BD2754E85 /* UILabel+TextColor.m */; };
+		7391D0A6D84E10918E981AB20119A908 /* UINavigationBar+BarTintColor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF548C1680812F5B01D07EDD7F652FDE /* UINavigationBar+BarTintColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F69891270FB9F7D3789C12AB49B703 /* RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD83647AE020216C2D735D463937D95 /* RESideMenu-dummy.m */; };
+		80BC8B9E4C8ABB24D35BB1A7BEFA9B0A /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1C432E9DDA238611C676077E25C6A4 /* RECommonFunctions.m */; };
+		80C384707BF3A2C39D70C0C1CF76AD34 /* UINavigationBar+BarTintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0756E6769E42A860A31D9ABAE59EC7FE /* UINavigationBar+BarTintColor.m */; };
+		832A89D384D196F942EAC46366B63BFA /* DKNightVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E01AF9C354788EE3DBB4C389B6301AE4 /* DKNightVersionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D5ED772F457D58009884B5F2A997D2 /* NSObject+Night.m in Sources */ = {isa = PBXBuildFile; fileRef = D932FF8D541455F1C07ECDF71F1FC376 /* NSObject+Night.m */; };
+		8DE683916C54B934894F14C0B3057B16 /* UIButton+TitleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5A2EF0F162C2CEE4E74D698A2319CF /* UIButton+TitleColor.m */; };
+		9168AD7E2290572406E3B5AC750D86CC /* UIBarButtonItem+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B9A0577FB5B2F9B64EE8D321AEC03 /* UIBarButtonItem+TintColor.m */; };
+		9307D0F1E5F4B62DA903E270CB611BF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		A7F2D8E35AE38ACD321A0E730D775417 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 231E5AB33082B8DBB552B2C938FAE59A /* RESideMenu.m */; };
+		B6B0882260408430C91D6ED2FC6F3FF8 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AF46FF7CE3EC207A47A90D1F036D2666 /* UIViewController+RESideMenu.m */; };
+		B71A9C13F52A57B510105361BD0AA52D /* UILabel+TextColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2F30946492E07085EC682112A1F879 /* UILabel+TextColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80D0B928D768CFD6ECD277838FC78EB /* UITabBar+BarTintColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AD371C63A9ADB51C1041DEC31C49AB /* UITabBar+BarTintColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC260266CA75C83C7F67925651054DE0 /* NSObject+Night.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B7C95203D0740DF81CF3318A1E9CC5 /* NSObject+Night.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE489D28B06E467D7C0D97E45B0C840D /* DKNightVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC19F5E7D69A94FF71A858A17204B3C /* DKNightVersionManager.m */; };
+		BFED539786F49114FB3637FAA8B76DEE /* UINavigationBar+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423378A1E6AD222F0475B82A2C94910 /* UINavigationBar+TintColor.m */; };
+		C73592CE2E68427B257F80B57AADD2A2 /* UIView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CF62B5849C40748C563E1EDB8E851 /* UIView+BackgroundColor.m */; };
+		CC00983EB0E46BB018CD819CF233851B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		CE0A29576A2694EC86806650F9CA10AF /* UINavigationBar+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CA9BEAB3D339137A31F5591EF579CE /* UINavigationBar+Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8EB571338248C91CCF8E396F9AC49C8 /* DKNightVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B01C0BC101A27B48405A52746D1C12 /* DKNightVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD410F2065DACC46054702B72567DA0F /* UIView+BackgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D79509552745A2475130EF3B6C425237 /* UIView+BackgroundColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70BE77F1D41820BA3A309AEBEE9A175 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8B0822F3DEC277D030B2E3F272E996 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7648CD1C43B5F49816186CBDDE1FA6F /* UIButton+TitleColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4F39B676BC0C33AA280EF764BFAE46 /* UIButton+TitleColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82B88807DDBF14B238E02553F43A4347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38201A027363DACAE7D99CFBF029E101;
+			remoteInfo = RESideMenu;
+		};
+		FCE1445246D2770B55D833B09981742E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE6ED6A08A38D482DE19BB8113E995D;
+			remoteInfo = DKNightVersion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030590DCAD3575E622D7557BD5D84262 /* Gemfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		0756E6769E42A860A31D9ABAE59EC7FE /* UINavigationBar+BarTintColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+BarTintColor.m"; path = "Classes/UIKit/UINavigationBar/UINavigationBar+BarTintColor.m"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		14DE7B9BC8330039618BA8E42622A2A2 /* UINavigationBar+TintColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TintColor.h"; path = "Classes/UIKit/UINavigationBar/UINavigationBar+TintColor.h"; sourceTree = "<group>"; };
+		16AFE193D219248E5F420B1CB3F348EA /* property.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = property.json; sourceTree = "<group>"; };
+		231E5AB33082B8DBB552B2C938FAE59A /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		24843EF2ED0EB4943210882BD2754E85 /* UILabel+TextColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TextColor.m"; path = "Classes/UIKit/UILabel/UILabel+TextColor.m"; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2CC19F5E7D69A94FF71A858A17204B3C /* DKNightVersionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DKNightVersionManager.m; path = Classes/Core/DKNightVersionManager.m; sourceTree = "<group>"; };
+		3423378A1E6AD222F0475B82A2C94910 /* UINavigationBar+TintColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TintColor.m"; path = "Classes/UIKit/UINavigationBar/UINavigationBar+TintColor.m"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39F493786DA487B0B4E5FB3653E615D1 /* Rakefile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		3DD29A6748EF88D8FC6FF1C0CEF9511D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E31472D99B4BAA16BA676680562A407 /* libDKNightVersion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDKNightVersion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C3EF6A157C661ABB14F7D1B71877E8 /* UINavigationBar+Animation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+Animation.m"; path = "Classes/Helper/UINavigationBar+Animation.m"; sourceTree = "<group>"; };
+		42B54633EB046B3B6FD015333491749E /* UITableView+SeparatorColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SeparatorColor.m"; path = "Classes/UIKit/UITableView/UITableView+SeparatorColor.m"; sourceTree = "<group>"; };
+		45CA9BEAB3D339137A31F5591EF579CE /* UINavigationBar+Animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Animation.h"; path = "Classes/Helper/UINavigationBar+Animation.h"; sourceTree = "<group>"; };
+		4A2F30946492E07085EC682112A1F879 /* UILabel+TextColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TextColor.h"; path = "Classes/UIKit/UILabel/UILabel+TextColor.h"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5FAB1B4886D37868963648F95F48C0CD /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		5FE20D5A2BCC0B1276EDC95DCE2B6076 /* RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESideMenu.xcconfig; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6918F73D846EDED80E7EBF7E68598593 /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
+		6FD9A20C7B95C5E33BBAA54183A42BF5 /* UITableView+SeparatorColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SeparatorColor.h"; path = "Classes/UIKit/UITableView/UITableView+SeparatorColor.h"; sourceTree = "<group>"; };
+		70FDBE68347AF786E7E1262C643E65FF /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		7A1C432E9DDA238611C676077E25C6A4 /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		84AD371C63A9ADB51C1041DEC31C49AB /* UITabBar+BarTintColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+BarTintColor.h"; path = "Classes/UIKit/UITabBar/UITabBar+BarTintColor.h"; sourceTree = "<group>"; };
+		8BD83647AE020216C2D735D463937D95 /* RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESideMenu-dummy.m"; sourceTree = "<group>"; };
+		8E4F39B676BC0C33AA280EF764BFAE46 /* UIButton+TitleColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TitleColor.h"; path = "Classes/UIKit/UIButton/UIButton+TitleColor.h"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9E787ED7AD3AA680A2D1B1E0D5BF3BAF /* DKNightVersion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKNightVersion-prefix.pch"; sourceTree = "<group>"; };
+		9F9F01C449C7F15B2B2F619886AF2805 /* UITabBar+BarTintColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+BarTintColor.m"; path = "Classes/UIKit/UITabBar/UITabBar+BarTintColor.m"; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		AB5A2EF0F162C2CEE4E74D698A2319CF /* UIButton+TitleColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TitleColor.m"; path = "Classes/UIKit/UIButton/UIButton+TitleColor.m"; sourceTree = "<group>"; };
+		AF46FF7CE3EC207A47A90D1F036D2666 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B5B7C95203D0740DF81CF3318A1E9CC5 /* NSObject+Night.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Night.h"; path = "Classes/Core/NSObject+Night.h"; sourceTree = "<group>"; };
+		B6721670E9BC78275A844360B4420758 /* DKNightVersion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKNightVersion-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF548C1680812F5B01D07EDD7F652FDE /* UINavigationBar+BarTintColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+BarTintColor.h"; path = "Classes/UIKit/UINavigationBar/UINavigationBar+BarTintColor.h"; sourceTree = "<group>"; };
+		C65CF62B5849C40748C563E1EDB8E851 /* UIView+BackgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BackgroundColor.m"; path = "Classes/UIKit/UIView/UIView+BackgroundColor.m"; sourceTree = "<group>"; };
+		C7432437C9DB5C39715ED9D146A44C36 /* lib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = lib; path = generator/lib; sourceTree = "<group>"; };
+		D79509552745A2475130EF3B6C425237 /* UIView+BackgroundColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BackgroundColor.h"; path = "Classes/UIKit/UIView/UIView+BackgroundColor.h"; sourceTree = "<group>"; };
+		D8B01C0BC101A27B48405A52746D1C12 /* DKNightVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKNightVersion.h; path = Classes/DKNightVersion.h; sourceTree = "<group>"; };
+		D932FF8D541455F1C07ECDF71F1FC376 /* NSObject+Night.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Night.m"; path = "Classes/Core/NSObject+Night.m"; sourceTree = "<group>"; };
+		DD09E51BBE54DBFC69BE7874DD5E8F33 /* DKNightVersion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKNightVersion.xcconfig; sourceTree = "<group>"; };
+		E01AF9C354788EE3DBB4C389B6301AE4 /* DKNightVersionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKNightVersionManager.h; path = Classes/Core/DKNightVersionManager.h; sourceTree = "<group>"; };
+		F32AB73C5CAB085E48D9A8CB516B6774 /* UIBarButtonItem+TintColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+TintColor.h"; path = "Classes/UIKit/UIBarButtonItem/UIBarButtonItem+TintColor.h"; sourceTree = "<group>"; };
+		F35658BC4DC67A9B36835E29977AF8B6 /* libRESideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRESideMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0B9A0577FB5B2F9B64EE8D321AEC03 /* UIBarButtonItem+TintColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+TintColor.m"; path = "Classes/UIKit/UIBarButtonItem/UIBarButtonItem+TintColor.m"; sourceTree = "<group>"; };
+		FB8B0822F3DEC277D030B2E3F272E996 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D4245A1DC5866E0F8A6B007B225D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC00983EB0E46BB018CD819CF233851B /* Foundation.framework in Frameworks */,
+				652F3E2CBAD7E9128B759D5E0BE72DF2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7ECEDB0441C54D14EEB5510DEDDC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9307D0F1E5F4B62DA903E270CB611BF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E478E8609121AD645ACC670F018817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB507079ADF57B2173E76184CBD51A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		04999431D5D663FEFB4FBB420FEC676A /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B0822F3DEC277D030B2E3F272E996 /* RECommonFunctions.h */,
+				7A1C432E9DDA238611C676077E25C6A4 /* RECommonFunctions.m */,
+				6918F73D846EDED80E7EBF7E68598593 /* RESideMenu.h */,
+				231E5AB33082B8DBB552B2C938FAE59A /* RESideMenu.m */,
+				5FAB1B4886D37868963648F95F48C0CD /* UIViewController+RESideMenu.h */,
+				AF46FF7CE3EC207A47A90D1F036D2666 /* UIViewController+RESideMenu.m */,
+				957CE418C2B16D5DB56BB3AEF189A056 /* Support Files */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		05F15E893826C9F9A9F1385F0F865988 /* DKNightVersion */ = {
+			isa = PBXGroup;
+			children = (
+				D8B01C0BC101A27B48405A52746D1C12 /* DKNightVersion.h */,
+				D23DBA466221FCC2BAED92663514B6DD /* Core */,
+				245D9C2187D7D0F3A1EFE78EF03A9232 /* Generator */,
+				45D1D617049D4F2D1A7507575E62DB95 /* Helper */,
+				AE2195787D96C8311FD1F1480C9C61B9 /* Resources */,
+				CB5FFDAA39F6542CDF75792412FFF5DD /* Support Files */,
+				95DEBBA429F4615F05EBD1DE538ED345 /* UIKit */,
+			);
+			path = DKNightVersion;
+			sourceTree = "<group>";
+		};
+		1DA501521FEDE4A2AF8A2FCC43D4CB91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7432437C9DB5C39715ED9D146A44C36 /* lib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		245D9C2187D7D0F3A1EFE78EF03A9232 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				1DA501521FEDE4A2AF8A2FCC43D4CB91 /* Resources */,
+			);
+			name = Generator;
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45D1D617049D4F2D1A7507575E62DB95 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				45CA9BEAB3D339137A31F5591EF579CE /* UINavigationBar+Animation.h */,
+				41C3EF6A157C661ABB14F7D1B71877E8 /* UINavigationBar+Animation.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		5E5CA663DF871F9B75C4A587B50B6308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E31472D99B4BAA16BA676680562A407 /* libDKNightVersion.a */,
+				3DD29A6748EF88D8FC6FF1C0CEF9511D /* libPods.a */,
+				F35658BC4DC67A9B36835E29977AF8B6 /* libRESideMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A26CD585F01B04C0DFB9B849387EAE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05F15E893826C9F9A9F1385F0F865988 /* DKNightVersion */,
+				04999431D5D663FEFB4FBB420FEC676A /* RESideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7A26CD585F01B04C0DFB9B849387EAE2 /* Pods */,
+				5E5CA663DF871F9B75C4A587B50B6308 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		957CE418C2B16D5DB56BB3AEF189A056 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE20D5A2BCC0B1276EDC95DCE2B6076 /* RESideMenu.xcconfig */,
+				8BD83647AE020216C2D735D463937D95 /* RESideMenu-dummy.m */,
+				70FDBE68347AF786E7E1262C643E65FF /* RESideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		95DEBBA429F4615F05EBD1DE538ED345 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F32AB73C5CAB085E48D9A8CB516B6774 /* UIBarButtonItem+TintColor.h */,
+				FB0B9A0577FB5B2F9B64EE8D321AEC03 /* UIBarButtonItem+TintColor.m */,
+				8E4F39B676BC0C33AA280EF764BFAE46 /* UIButton+TitleColor.h */,
+				AB5A2EF0F162C2CEE4E74D698A2319CF /* UIButton+TitleColor.m */,
+				4A2F30946492E07085EC682112A1F879 /* UILabel+TextColor.h */,
+				24843EF2ED0EB4943210882BD2754E85 /* UILabel+TextColor.m */,
+				BF548C1680812F5B01D07EDD7F652FDE /* UINavigationBar+BarTintColor.h */,
+				0756E6769E42A860A31D9ABAE59EC7FE /* UINavigationBar+BarTintColor.m */,
+				14DE7B9BC8330039618BA8E42622A2A2 /* UINavigationBar+TintColor.h */,
+				3423378A1E6AD222F0475B82A2C94910 /* UINavigationBar+TintColor.m */,
+				84AD371C63A9ADB51C1041DEC31C49AB /* UITabBar+BarTintColor.h */,
+				9F9F01C449C7F15B2B2F619886AF2805 /* UITabBar+BarTintColor.m */,
+				6FD9A20C7B95C5E33BBAA54183A42BF5 /* UITableView+SeparatorColor.h */,
+				42B54633EB046B3B6FD015333491749E /* UITableView+SeparatorColor.m */,
+				D79509552745A2475130EF3B6C425237 /* UIView+BackgroundColor.h */,
+				C65CF62B5849C40748C563E1EDB8E851 /* UIView+BackgroundColor.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		AE2195787D96C8311FD1F1480C9C61B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				030590DCAD3575E622D7557BD5D84262 /* Gemfile */,
+				16AFE193D219248E5F420B1CB3F348EA /* property.json */,
+				39F493786DA487B0B4E5FB3653E615D1 /* Rakefile */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		CB5FFDAA39F6542CDF75792412FFF5DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD09E51BBE54DBFC69BE7874DD5E8F33 /* DKNightVersion.xcconfig */,
+				B6721670E9BC78275A844360B4420758 /* DKNightVersion-dummy.m */,
+				9E787ED7AD3AA680A2D1B1E0D5BF3BAF /* DKNightVersion-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DKNightVersion";
+			sourceTree = "<group>";
+		};
+		D23DBA466221FCC2BAED92663514B6DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E01AF9C354788EE3DBB4C389B6301AE4 /* DKNightVersionManager.h */,
+				2CC19F5E7D69A94FF71A858A17204B3C /* DKNightVersionManager.m */,
+				B5B7C95203D0740DF81CF3318A1E9CC5 /* NSObject+Night.h */,
+				D932FF8D541455F1C07ECDF71F1FC376 /* NSObject+Night.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50DB10C502DEE03F9ACCD570CB816A1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70BE77F1D41820BA3A309AEBEE9A175 /* RECommonFunctions.h in Headers */,
+				03899272ACC8F9477003154C910846AC /* RESideMenu.h in Headers */,
+				1FC64BA6B10BB48050B720C92114BB4A /* UIViewController+RESideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89B3E40B1621C4654A2AEA793FD6579 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EB571338248C91CCF8E396F9AC49C8 /* DKNightVersion.h in Headers */,
+				832A89D384D196F942EAC46366B63BFA /* DKNightVersionManager.h in Headers */,
+				BC260266CA75C83C7F67925651054DE0 /* NSObject+Night.h in Headers */,
+				5F91B9A49B9C8BF54201B8AAA155E0CA /* UIBarButtonItem+TintColor.h in Headers */,
+				F7648CD1C43B5F49816186CBDDE1FA6F /* UIButton+TitleColor.h in Headers */,
+				B71A9C13F52A57B510105361BD0AA52D /* UILabel+TextColor.h in Headers */,
+				CE0A29576A2694EC86806650F9CA10AF /* UINavigationBar+Animation.h in Headers */,
+				7391D0A6D84E10918E981AB20119A908 /* UINavigationBar+BarTintColor.h in Headers */,
+				4A989C2AF7F3EF42AE7AC20768393837 /* UINavigationBar+TintColor.h in Headers */,
+				B80D0B928D768CFD6ECD277838FC78EB /* UITabBar+BarTintColor.h in Headers */,
+				02150D1CB79AAA932028AA840F41EEB9 /* UITableView+SeparatorColor.h in Headers */,
+				DD410F2065DACC46054702B72567DA0F /* UIView+BackgroundColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1031AD88EDD75D5E1930A3D3E1E1E768 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6618203839FA582E5A780D19F5A19E3F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E31692E0A97F9A6899FE94956FD8B7C2 /* Sources */,
+				5F7ECEDB0441C54D14EEB5510DEDDC02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE90A35CD0BB65FBBB4A4E8C4FB11CDF /* PBXTargetDependency */,
+				141DC05419E352FE5A42D93056C7A078 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3DD29A6748EF88D8FC6FF1C0CEF9511D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		38201A027363DACAE7D99CFBF029E101 /* RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398EBA7AA63BE6794C580D8F48BC76A2 /* Build configuration list for PBXNativeTarget "RESideMenu" */;
+			buildPhases = (
+				F6382F85F6CE4D433523B8ACE8149885 /* Sources */,
+				49D4245A1DC5866E0F8A6B007B225D08 /* Frameworks */,
+				50DB10C502DEE03F9ACCD570CB816A1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = F35658BC4DC67A9B36835E29977AF8B6 /* libRESideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4EE6ED6A08A38D482DE19BB8113E995D /* DKNightVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E289A145D79EDC021702A4A0708AFB8F /* Build configuration list for PBXNativeTarget "DKNightVersion" */;
+			buildPhases = (
+				16C36BD2119009FAD795289E3D10C600 /* Sources */,
+				8E478E8609121AD645ACC670F018817C /* Frameworks */,
+				F89B3E40B1621C4654A2AEA793FD6579 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKNightVersion;
+			productName = DKNightVersion;
+			productReference = 3E31472D99B4BAA16BA676680562A407 /* libDKNightVersion.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E5CA663DF871F9B75C4A587B50B6308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE6ED6A08A38D482DE19BB8113E995D /* DKNightVersion */,
+				1031AD88EDD75D5E1930A3D3E1E1E768 /* Pods */,
+				38201A027363DACAE7D99CFBF029E101 /* RESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C36BD2119009FAD795289E3D10C600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADDBF9C0F573130D1AC899A90E86BA8 /* DKNightVersion-dummy.m in Sources */,
+				BE489D28B06E467D7C0D97E45B0C840D /* DKNightVersionManager.m in Sources */,
+				89D5ED772F457D58009884B5F2A997D2 /* NSObject+Night.m in Sources */,
+				9168AD7E2290572406E3B5AC750D86CC /* UIBarButtonItem+TintColor.m in Sources */,
+				8DE683916C54B934894F14C0B3057B16 /* UIButton+TitleColor.m in Sources */,
+				72E819D6193E30C4271FFB6251295093 /* UILabel+TextColor.m in Sources */,
+				6D9CE6EEB0CDE02B2AD2FC16840B3C0C /* UINavigationBar+Animation.m in Sources */,
+				80C384707BF3A2C39D70C0C1CF76AD34 /* UINavigationBar+BarTintColor.m in Sources */,
+				BFED539786F49114FB3637FAA8B76DEE /* UINavigationBar+TintColor.m in Sources */,
+				07698A9BC09E52CD595715AD0F905AB9 /* UITabBar+BarTintColor.m in Sources */,
+				2343236BE7AF108ACDB2449005998377 /* UITableView+SeparatorColor.m in Sources */,
+				C73592CE2E68427B257F80B57AADD2A2 /* UIView+BackgroundColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31692E0A97F9A6899FE94956FD8B7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE5783F7EB1B3C89280ED36D3B30BC8 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6382F85F6CE4D433523B8ACE8149885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BC8B9E4C8ABB24D35BB1A7BEFA9B0A /* RECommonFunctions.m in Sources */,
+				78F69891270FB9F7D3789C12AB49B703 /* RESideMenu-dummy.m in Sources */,
+				A7F2D8E35AE38ACD321A0E730D775417 /* RESideMenu.m in Sources */,
+				B6B0882260408430C91D6ED2FC6F3FF8 /* UIViewController+RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141DC05419E352FE5A42D93056C7A078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RESideMenu;
+			target = 38201A027363DACAE7D99CFBF029E101 /* RESideMenu */;
+			targetProxy = 82B88807DDBF14B238E02553F43A4347 /* PBXContainerItemProxy */;
+		};
+		FE90A35CD0BB65FBBB4A4E8C4FB11CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKNightVersion;
+			target = 4EE6ED6A08A38D482DE19BB8113E995D /* DKNightVersion */;
+			targetProxy = FCE1445246D2770B55D833B09981742E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		121658A10621BEF0F6F2979B958569E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD09E51BBE54DBFC69BE7874DD5E8F33 /* DKNightVersion.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKNightVersion/DKNightVersion-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		199E68CC34DCCAA1B3A4B89E8E45CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3F592A5E406FA84F23B0B5BE56174D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD09E51BBE54DBFC69BE7874DD5E8F33 /* DKNightVersion.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKNightVersion/DKNightVersion-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7381E24ADEA756C836C761B7389B726F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE20D5A2BCC0B1276EDC95DCE2B6076 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90EB617E0B5B3DBD82A2E16A49C3097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EFE3A5EB2036D430B88A8FAE030278AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE20D5A2BCC0B1276EDC95DCE2B6076 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398EBA7AA63BE6794C580D8F48BC76A2 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3A5EB2036D430B88A8FAE030278AB /* Debug */,
+				7381E24ADEA756C836C761B7389B726F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6618203839FA582E5A780D19F5A19E3F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EB617E0B5B3DBD82A2E16A49C3097A /* Debug */,
+				199E68CC34DCCAA1B3A4B89E8E45CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E289A145D79EDC021702A4A0708AFB8F /* Build configuration list for PBXNativeTarget "DKNightVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F592A5E406FA84F23B0B5BE56174D7B /* Debug */,
+				121658A10621BEF0F6F2979B958569E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

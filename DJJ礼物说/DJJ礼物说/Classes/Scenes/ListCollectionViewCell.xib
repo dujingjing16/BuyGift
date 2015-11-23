@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="ListCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="203"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baiban.png" translatesAutoresizingMaskIntoConstraints="NO" id="UpU-yU-6Pf">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="203"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rts-AH-x2C">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="143"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkv-YZ-Blr">
+                        <rect key="frame" x="10" y="150" width="203" height="41"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="mkv-YZ-Blr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="3wH-uX-DKE"/>
+                <constraint firstItem="UpU-yU-6Pf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7Tc-nM-OdE"/>
+                <constraint firstItem="Rts-AH-x2C" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9hx-Hj-sv4"/>
+                <constraint firstAttribute="bottom" secondItem="UpU-yU-6Pf" secondAttribute="bottom" id="KB3-fL-Q54"/>
+                <constraint firstAttribute="trailing" secondItem="mkv-YZ-Blr" secondAttribute="trailing" constant="10" id="QAf-1K-7eb"/>
+                <constraint firstItem="UpU-yU-6Pf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VMg-V2-Zrq"/>
+                <constraint firstAttribute="trailing" secondItem="UpU-yU-6Pf" secondAttribute="trailing" id="bhL-Ae-pml"/>
+                <constraint firstAttribute="trailing" secondItem="Rts-AH-x2C" secondAttribute="trailing" id="fJh-is-BSC"/>
+                <constraint firstItem="Rts-AH-x2C" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ooz-5P-fKL"/>
+                <constraint firstItem="mkv-YZ-Blr" firstAttribute="top" secondItem="Rts-AH-x2C" secondAttribute="bottom" constant="7" id="rgR-eT-Fcq"/>
+                <constraint firstAttribute="bottom" secondItem="Rts-AH-x2C" secondAttribute="bottom" constant="60" id="t0t-Hs-dhb"/>
+                <constraint firstItem="mkv-YZ-Blr" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.2" id="wYk-5U-4sE"/>
+            </constraints>
+            <size key="customSize" width="223" height="203"/>
+            <connections>
+                <outlet property="imgView" destination="Rts-AH-x2C" id="UIn-Xv-pdO"/>
+                <outlet property="nameLable" destination="mkv-YZ-Blr" id="gOp-aL-k2Z"/>
+            </connections>
+            <point key="canvasLocation" x="341.5" y="585.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="baiban.png" width="144" height="191"/>
+    </resources>
+</document>
